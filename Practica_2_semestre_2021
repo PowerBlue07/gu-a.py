@@ -1,0 +1,1065 @@
+# Practica 2 segundo cuatrimestre
+
+# Ejercicios mas complejos
+
+# Ejercicio 10
+# 200 kw -----> $480
+#kw -----> $25,5 excedente
+#impuestos----> $78
+
+##consumoalInicio=int(input("Ingrese los kw iniciales : "))
+##consumoalfinal=int(input("Ingrese los kw finales : "))
+##
+##consumototal=consumoalInicio-consumoalfinal
+##excedente = consumototal*25.5
+##
+##if (consumototal<200):
+##    importefinal1= 480 + 78
+##    print ("Su importe final es :",importefinal1)
+##else:
+##    if (consumototal>200):
+##        importefinal=480+78+excedente
+##        print ("Su importe posee excente",importefinal,"pesos")
+##
+
+
+# Ejer 11
+
+##a=int(input("Ingrese un numero entero a : "))
+##b=int(input("Ingrese un numero entero b : "))
+##c=int(input("Ingrese un numero entero c : "))
+##
+##
+##if (a>b and a>c):
+##    print ("El valor a",a,"es el mayor")
+##elif (b>a and b>c):
+##    print ("El valor b",b,"es el mayor")
+##else:
+##    ("El valor c",c,"es el mayor")
+
+
+
+##a=int(input("Ingrese un valor a :"))
+##b=int(input("Ingrese un valor b :"))
+##print ("Usted ingreso:",a,b)
+##if (b>a):
+##    aux = a
+##    a = b
+##    b = aux
+##    print (a , b)
+
+
+
+##a=int(input("Ingrese primer valor"))
+##b=int(input("Ingrese segundo valor"))
+##c=int(input("Ingrese tercer valor"))
+##print ("inicio", a,b,c)
+##
+##if(a>b):
+##    aux=a
+##    a=b
+##    b=aux
+##if(a>c):
+##    aux=a
+##    a=c
+##    c=aux
+##if(b>c):
+##    aux=b
+##    b=c
+##    c=aux
+##
+##print("ordenados",a,b,c)
+
+
+
+
+
+#Funcion Lineal
+
+##a=int(input("Ingrese un valor de a : "))
+##b=int(input("Ingrese un valor de b : "))
+##
+##print ("ax+b=0")
+##print ("Usted ingreso",a,b)
+##
+##if (a==0 and b==0):
+##    print ("Sol: x pertenece a todos los Reales")
+##else:
+##    if (a==0 and b!=0):
+##        print ("No tiene solucion ")
+##    else:
+##        print ("a equivale a ",a , "y b equivale a ",b)
+
+
+
+
+###Funcion cuadratica
+##import math
+##
+##
+##a=int(input("Ingrese un valor a : "))
+##b=int(input("Ingrese un valor de b:"))
+##c=int(input("Ingrese un valor de c:"))
+##
+##discriminante=(b**2)-4*a*c
+##
+##if (discriminante<0):
+##  print("No tiene raices")
+##
+##elif(discriminante==0):
+##  print ("Posee una sola raiz")
+##
+##else:
+##  print (-b+(math.sqrt(b**2-4*a*c)/2*a))
+##  print(-b-(math.sqrt(b**2-4*a*c)/2*a))
+
+
+#Ejercios de ciclos
+#Ejercicio 1
+
+##n=6
+##i=1
+##while (i<n):
+##    print (i)
+##    i+=1
+
+##n=int(input("Ingrese un numero entero :"))
+##i=1
+##while (i<n+1):
+##    print (i)
+##    i=i+1
+
+#Ejercicio 2
+
+##n=8
+##i=4
+##while (i<n):
+##    print (i)
+##    i=i+1
+
+##for i in range (4,8):
+##    print (i)
+
+##m=int(input("Ingrese un numero m : "))
+##n=int(input("Ingrese un numero n : "))
+##print ("Usted ingreso",m,n)
+##if(m<n):
+##    while (m<n+1):
+##        print (m)
+##        m=m+1
+##else:
+##    print ("El valor de n es menor al de m")
+
+
+#Ejercicio 3
+
+##m=11
+##while(m<16):
+##    print (m)
+##    m+=1
+
+
+##m= int(input("Ingrese un numero "))
+##n=m+5
+##while (m<n):
+##    print (m+1)
+##    m=m+1
+
+##n=int(input("Ingrese un valor n : "))
+##c=int(input("Ingrese un valor de c : "))
+##while (n<c):
+##    print (n+1)
+##    n=n+1
+
+
+#Ejercicio 4
+
+##n=5
+##c=11
+##while(n<c+1):
+##    print (n)
+##    n=n+2
+
+
+##m=int(input("Ingrese un valor para m: "))
+##n=int(input("Ingrese un valor para n: "))
+##
+##while (m<n+1):
+##    print (m)
+##    m=m+3
+
+
+##m=int(input("Ingrese un valor para m: "))
+##n=int(input("Ingrese un valor para n: "))
+##p=int(input("Ingrese un valor para p: "))
+##while (m<n+1):
+##    print (m)
+##    m=m+p
+
+#
+##m=8
+##n=3
+##while (m>n-1):
+##    print (m)
+##    m=m-1
+
+
+#Ejercicio 6
+##m=int(input("Ingrese un valor m "))
+##n=int(input("Ingrese un valor n "))
+##while (m>n-1):
+##    print (m)
+##    m=m-3
+
+
+#Ejercicio 7 realizar luego
+
+
+#Ejercicio 8
+
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##pot=1
+##while (pot<n):
+##    print (pot)
+##    i=i+1
+##    pot=2**i
+
+
+# b)-
+
+##n=int(input("Ingrese un valor n : "))
+##i=0
+##pot=1
+##while(i<n):
+##    print(pot)
+##    i=i+1
+##    pot=2**i
+
+
+##n=int(input("Ingrese un valor para n : "))
+##i=1
+##pot=1
+##acum=1
+##while (i<n+1):
+##    print (pot)
+##    i=i+1
+##    acum=acum+1
+##    pot=i**acum
+
+
+#Ejercicio 9
+# a)
+##n=int(input("Ingrese un valor para n : "))
+##i=1
+##while (i<n+1):
+##    i+=1
+##    if (n%i==0):
+##        print (i)
+
+#B)
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##while (i<n+1):
+##    i+=1
+##    if (n%i==0 and i%2==0):
+##        print (i)
+#c)
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##CantDiv=0
+##while (i<n+1):
+##    i+=1
+##    if (n%i==0):
+##        CantDiv=CantDiv+1
+##print ("La cantidad de divisores es ",CantDiv)
+
+#d)
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##CantDiv=0
+##suma=0
+##while (i<n+1):
+##    i+=1
+##    if (n%i==0):
+##        suma= suma + i
+##print ("La suma de los divisores da : ",suma)
+#e)
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##CantDiv=0
+##while (i<n+1):
+##    i+=1
+##    if (n%i==0):
+##        CantDiv=CantDiv+1
+##print ("La cantidad de divisores es ",CantDiv)
+#f)
+
+#e)
+##c = int(input("Ingrese un numero  c : "))
+##n = int(input("Ingrese un numero  n : "))
+##i=0
+##cont=0
+##while (i<n+1):
+##    i+=1
+##    if(n%i==0 and cont<c):
+##        cont=cont+1
+##        print (i,cont)
+
+##c = int(input("Ingrese un numero  c : "))
+##n = int(input("Ingrese un numero  n : "))
+##div=0
+##cont=0
+##while (div<n+1 and cont<c):
+##    div+=1
+##    if (n%div==0):
+##        cont=cont+1
+##        print (div)
+
+##c = int(input("Ingrese un numero  c : "))
+##n = int(input("Ingrese un numero  n : "))
+##div=n
+##cont=0
+##while (div>=0 and cont<c):
+##    if (n%div==0):
+##        print (div)
+##        cont=cont+1
+##    div=div-1
+#Ejercicio 10
+##
+##n=int(input("Ingrese un numero positivo n : "))
+##i=1
+##producto =0
+##while (i<n+1):
+##    print (i,producto)
+##    i+=1
+##    producto=i*i
+
+
+#Ejercicio 11
+
+##m = int(input("Ingrese m:"))
+##suma = 0
+##n = 0
+##while suma < m:
+##  n = n + 1
+##  suma = suma + n
+##print(n)
+
+
+
+#Ejercicio 12
+
+
+##n=int(input("Ingrese un valor para n : "))
+##i=0
+##acum=2
+##termino=1
+##while (i<n+1):
+##    print (termino)
+##    i+=1
+##    termino=acum*i
+
+##n= int(input ("Ingrese un valor n:"))
+##i=1
+##sucesion=1
+##while (i<n+1):
+##    print (i,sucesion)
+##    i+=1
+##    sucesion=2*i-1
+
+
+##n= int(input ("Ingrese un valor n:"))
+##i=1
+##sucesion=1
+##while (i<n+1):
+##    print (i,sucesion)
+##    i+=1
+##    sucesion=i**2
+
+
+##n= int(input ("Ingrese un valor n:"))
+##i=1
+##sucesion=1
+##while (i<n+1):
+##    print (i,sucesion)
+##    i+=1
+##    sucesion=i**2-i**3
+
+
+##n= int(input ("Ingrese un valor n:"))
+##i=1
+##sucesion=1
+##while (i<n+1):
+##    print (i,sucesion)
+##    i+=1
+##    sucesion= 1/i**2
+
+#Ejercicio 13
+
+##n=int(input("Ingrese un valor para n : "))
+##suma=0
+##for i in range (1,n+1):
+##    suma=suma+2*i
+##    print(suma)
+
+##n=int(input("Ingrese un valor para n : "))
+##suma=0
+##for i in range (1,n+1):
+##    acum=i**2
+##    suma=suma+acum
+##    print(suma)
+
+
+##n=int(input("Ingrese un valor para n : "))
+##suma=0
+##for i in range (1,n+1):
+##    acum=n**3 - n**2
+##    suma=suma+acum
+##    print (suma)
+
+
+##n=int(input("Ingrese un valor para n : "))
+##suma=0
+##for i in range (1,n+1):
+##    acum= 1/(i**2)
+##    suma=suma+acum
+##    print (suma,end=" ")
+
+
+
+# Ejercicio 14 #Primer item hacer con for
+
+##n=int(input("Ingrese la cantidad de terminos a sumar : "))
+##signo=1
+##suma=0
+##
+##for i in range (1,n+1):
+##        suma=  suma + (1/i)* signo
+##        signo= signo * (-1)
+##
+##        print (suma,i,signo)
+
+
+
+##import math
+##error_usr = float(input("Ingrese error: "))
+##suma = 0
+##posta = math.log(2)
+##signo = 1
+##i = 1
+##while(abs(posta-suma) > error_usr):
+##  suma = suma + (signo * (1/i))
+##  signo  = signo*(-1)
+##  i = i + 1
+##
+##print("El término es el número : ", i)
+
+
+
+
+##import math
+##
+##error_user = 0.01
+##i = 1
+##signo = 1
+##termino = 0
+##suma = 0
+##valor = math.log(2)
+##while (abs( valor - suma ) > error_user ):
+##    suma = suma + signo* (1 / i)
+##    signo = signo * (-1)
+##    termino = termino + 1
+##    i=i+1
+##
+##print (" La cantidad de terminos para la diferencia es : ",termino)
+##
+
+
+# Item c numero muy chico dejar para despues
+
+
+##import math
+
+
+##n = int (input ("Ingrese un valor para n : "))
+##suma = 0
+##terminos = 0
+##signo = 1
+##
+##for i in range (1,n+1,2):
+##        suma = suma + (1 /i)*signo
+##        signo = signo * (-1)
+##        print (suma)
+
+
+
+##import math
+
+##error_user=0.1
+##i =1
+##suma = 0
+##terminos = 0
+##signo = 1
+##valor=math.pi/4
+##while (abs(valor - suma)>error_user):
+##    suma = suma + signo*(1/i+1)
+##    signo = signo * (-1)
+##    terminos = terminos + 1
+##    i = i + 2
+##print (terminos,suma)
+
+
+##error_user=0.01
+##i =1
+##suma = 0
+##terminos = 0
+##signo = 1
+##valor=math.pi/4
+##while (abs(valor - suma)>error_user):
+##    suma = suma + signo*(1/i+1)
+##    signo = signo * (-1)
+##    terminos = terminos + 1
+##    i = i + 2
+##print (terminos,suma)
+
+#----------------------------------------------------------------------
+
+# Ejercicio 16
+
+
+##import math
+##numero=int(input("Ingrese un numero : "))
+##i=1
+##factorial=1
+##calculo=0
+##acum=0
+##while (i<numero+1):
+##    print (i,acum)
+##    numerador=1
+##    calculo=numerador/factorial
+##    factorial=factorial*i
+##    acum=acum+calculo
+##    i=i+1
+##
+##numeroE=math.e
+##print ("El numero e :",numeroE, dif)
+
+
+
+# item b -
+
+##import math
+##num=1
+##denom=1
+##suma=1
+##e=2.718281 # valor buscado en google
+##
+##i=1
+##while e-suma>0.1:
+##    denom=denom*i
+##    suma=suma +(num/denom)
+##    i+=1
+##
+##print ("La cantidad de terminos es : ",i)
+
+
+# item b - cambia el valor de 0.1 a 0.01
+
+# Item c
+
+##import math
+##numero_e=float(input("Ingrese un numero chico : "))
+##i=1
+##factorial=1
+##calculo=0
+##acum=0
+##
+##while (math.fabs(math.e-acum))>numero_e:
+##    print (i,acum)
+##    numerador=1
+##    calculo=numerador/factorial
+##    factorial=factorial*i
+##    acum=acum+calculo
+##    i=i+1
+
+
+# Ejercicio 17
+
+
+##m = int (input ("Ingrese un valor para m : "))
+##n = int (input ("Ingrese un valor para n : "))
+##j=n
+##for i in range (m,n+1):
+##    print (i,j)
+##    j = j -1
+
+##m = int(input("Ingrese m: "))
+##n = int(input("Ingrese n: "))
+##
+##j = n
+##for i in range(m,n+1):
+##    if (j>i):
+##        print(i,j)
+##    j = j - 1
+
+#Ejercicio 18
+
+##for i in range (4,6 +1 ):
+##    for j in range (4,6 + 1):
+##        print (i,j)
+
+
+## b )
+
+##m=int(input("Ingrese un numero m: "))
+##n=int(input("Ingrese un numero n: "))
+##
+##izq=m
+##der=m
+##
+##while (izq<=n):
+##    print(izq,der)
+##    if (der < n):
+##        der = der +1
+##    else:
+##        izq=izq +1
+##        der = m
+
+
+# Ejercicio 19
+##n = int (input ("Ingrese un valor para n : "))
+##m = int (input ("Ingrese un valor para m : "))
+##if (m>n):
+##    for i in range (n,m+1):
+##        for j in range (i,m+1):
+##            print (i,j)
+
+
+
+# Jugar y hacer el b )
+
+
+
+#-------------------------------------------
+# Cadenas
+
+#
+##palabra = input ("Ingrese una palabra para sacar las r")
+##pal = ""
+##for char  in palabra:
+##    if  (char == "r"):
+##        pal = pal + "*"
+##    else:
+##        pal =pal + char
+##print (pal)
+
+# Ejercicio 23
+##n = int (input("Ingrese un numero n : "))
+##simbolo = " "
+##for i in range (1,n+1):
+##    simbolo=simbolo +"*"
+##    print (simbolo)
+
+
+
+### Ejercicio 24
+##palabra = input("Ingrese palabra: ")
+##ancho = 80
+##espacio_izq = ((ancho - len(palabra))//2)
+##for caracter in range(espacio_izq):
+##    print(" ", end="")
+##print(palabra)
+
+# Ejercicio 26
+##palabra = input ("Ingrese una palabra")
+##letras= input ("Ingrese una letra")
+##pal_nueva=""
+##cont =0
+##for char in palabra:
+##    if not(char==letras):
+##        pal_nueva=pal_nueva + char
+##    else:
+##        cont =cont +1
+##print (cont)
+
+
+# Ejercicio 27
+
+#Posee diptongo
+
+
+##palabra = input ("Ingrese una palabra ")
+##pal_new=""
+##cantDeVocales = 0
+##diptongo=False
+##
+##for c in palabra:
+##    if c == "a" or c == "e" or c == "i" or c == "o" or c == "u":
+##        cantDeVocales =cantDeVocales +1
+##    else:
+##        cantDeVocales =0
+##    if cantDeVocales >=2:
+##        diptongo=True
+##
+##if diptongo:
+##    print ("Tiene diptongo")
+##else:
+##    print ("No tiene diptongo")
+
+
+#-------------------------------Practica de Funciones ----------------------#
+
+
+#Ejercicio 3
+
+# a)
+
+##def repiteCadena (cadena):
+##    for i in range (1,3+1):
+##        print  (cadena,end=" ")
+##repiteCadena ("hola")
+# b)
+##from Funciones import repiteCadena
+##
+##print (repiteCadena("hola"))
+
+# c)
+
+##from Funciones import repiteCadena
+##
+##palabra = input("Ingrese una palabra : ")
+##print (repiteCadena(palabra))
+
+# Ejercicio 4
+
+##def promedio (m,n):
+##    calculo=(m+n)/2
+##    return (calculo)
+##def promedio1 (m,n,z):
+##    calculo=(m+n+z)/3
+##    return (calculo)
+##
+##m=float(input("Ingrese un numero m : "))
+##n=float(input("Ingrese un numero n : "))
+##z=float(input("Ingrese un numero z : "))
+##print (promedio1(m,n,z))
+
+
+
+### Ejercicio 5
+##
+##def abs (n):
+##    if (n<0):
+##        n=n*(-1)
+##        return (n)
+##    return (n)
+##
+##numero = int (input("Ingrese un numero : "))
+##print (abs(numero))
+
+# Ejercicio 6
+
+##def exclamar (palabra):
+##    return (("!"+palabra+"¡"))
+##
+##def gritar (unaCadena):
+##    return ("!!!"+unaCadena+"¡¡¡")
+##
+##palabra=input("Ingrese una palabra ")
+##print (gritar(exclamar(palabra)))
+
+# Ejercicio 7
+
+##from funcionCubo import elevarAlcubo
+##
+##print (0,"alcubo",elevarAlcubo(0))
+##print (1,"alcubo",elevarAlcubo(1))
+##print (3,"alcubo",elevarAlcubo(2))
+##print (4,"alcubo",elevarAlcubo(2))
+##print (5,"alcubo",elevarAlcubo(2))
+##print (6,"alcubo",elevarAlcubo(2))
+##print (-1,"alcubo",elevarAlcubo(-1))
+##print (-2,"alcubo",elevarAlcubo(2))
+##print (-3,"alcubo",elevarAlcubo(-3))
+##print (-4,"alcubo",elevarAlcubo(-4))
+##print (-5,"alcubo",elevarAlcubo(-5))
+
+
+
+# Ejercicio 8
+
+##def CantDiv (num):
+##    cant_div=0
+##    for c in range (1,num+1):
+##        if(num%c)==0:
+##            cant_div=cant_div+1
+##    return cant_div
+
+####n =int(input("Ingrese un valor entero"))
+####print (CantDiv(n))
+##
+##
+##def esPrimo (num):
+##    if CantDiv(num)==2:
+##        return True
+##    else:
+##        return False
+
+
+##def FactoresPrimos (divisores):
+##    for i in range (1,n+1):
+##        if (n%i==0 ):
+##            divisores =i
+##            if (esPrimo(divisores)):
+##                print (divisores)
+##
+##
+##n =int (input ("Ingrese un valor "))
+##(FactoresPrimos(n))
+
+
+# Ejercicio 9
+
+#a )
+
+##def OrdenaNum1 (x,y):
+##    if (x>y):
+##        return (x)
+##    else:
+##        return (y)
+##
+##n = int (input ("Ingrese un valor n"))
+##m = int (input ("Ingrese un valor m"))
+##
+##print (OrdenaNum1(n,m),"es mayor")
+
+
+##def esMayor (a,b,c):
+##    if a>b and a>c:
+##        return (a)
+##    elif (b>a and b>c):
+##        return (b)
+##    else:
+##        return (c)
+##
+##a = int(input("Ingrese un valor a : "))
+##b= int(input("Ingrese un valor b : "))
+##c= int(input("Ingrese un valor c : "))
+##
+##print (esMayor(a,b,c),"es el mayor")
+
+
+# Ejercicio 10
+
+##def potencia (a,b):
+##    calculo = a**b
+##    return calculo
+##
+##a = int(input("Ingrese un valor a : "))
+##b= int(input("elevado a b : "))
+##print (potencia (a,b))
+
+
+# Ejercicio 11
+
+
+##def SumedivisoresPropios (n):
+##    suma = 0
+##    for i in range (1,n):
+##        if (n%i == 0 ):
+##            divisoresPropios = i
+##            suma = suma + divisoresPropios
+##    return (suma)
+####
+####
+##def NumPerfecto (n):
+##    if SumedivisoresPropios(n) == n:
+##        return (True)
+##    else:
+##        return (False)
+##
+##
+##def NumAbundante (n):
+##    if SumedivisoresPropios(n)> n:
+##        return (True)
+##    else:
+##        return (False)
+##
+##
+##n = int (input ("Ingrese un valor : "))
+##print (NumAbundante(n))
+
+# Ejercicio 12
+
+##def Cantdivisores (n):
+##    cantdiv  = 0
+##    for i in range (1,n+1):
+##        if (n%i == 0):
+##            cantdiv = cantdiv +1
+##    return (cantdiv)
+##
+##def esPrimo (n):
+##    if (Cantdivisores(n)==2):
+##        return (True)
+##    else:
+##        return (False)
+
+##
+##def EsPoderoso (n):
+##    poderoso = True
+##    for i in range (1, n):
+##        if n%i==0 and esPrimo(i) and not (n%i**2==0):
+##            poderoso = False
+##    return poderoso
+##
+##n = int (input("Ingrese un valor : "))
+##
+##print (EsPoderoso(n))
+
+# Ejercicio 13
+
+##def Cantdivisores (n):
+##    cantdiv  = 0
+##    for i in range (1,n+1):
+##        if (n%i == 0):
+##            cantdiv = cantdiv +1
+##    return (cantdiv)
+##
+##def esPrimo (n):
+##    if (Cantdivisores(n)==2):
+##        return (True)
+##    else:
+##        return (False)
+##
+##
+##def LibredeCuadrados (n):
+##    for i in range (1,n):
+##        if (esPrimo(i) and n%i==0 ):
+##            if (n)%i**2==0:
+##                return False
+##    return True
+##
+##n = int (input("Ingrese un numero : "))
+##print (LibredeCuadrados(n))
+
+
+
+
+# Ejercicio 14
+
+##def Cantdivisores (n):
+##    cantdiv  = 0
+##    for i in range (1,n+1):
+##        if (n%i == 0):
+##            cantdiv = cantdiv +1
+##    return (cantdiv)
+##
+##def esPrimo (n):
+##    if (Cantdivisores(n)==2):
+##        return (True)
+##    else:
+##        return (False)
+##
+##
+##def primoMayorCercano (n):
+##    while not(esPrimo(n)) :
+##        n = n + 1
+##    return (n)
+##
+##
+##n = int (input("Ingrese un valor "))
+##print (primoMayorCercano(n+1)) ### Pongo mas 1 para incrementar el valor del usuario
+
+
+
+# Ejercicio 15
+##def recuadrar (palabra):
+##
+##    cant_ast = len(palabra)+4
+##    asteriscos =""
+##    for i in range(0,cant_ast):
+##        asteriscos=asteriscos+"*"
+##    print(asteriscos)
+##    print("*",palabra,"*")
+##    print(asteriscos)
+##
+##
+##palabra = input ("Ingrese una cadena ")
+##(recuadrar(palabra))
+
+## Ejercicio 16
+
+##def CantAparece (palabra,letra):
+##    cantAparece = 0
+##
+##    for char in palabra:
+##        if char == letra:
+##            cantAparece = cantAparece + 1
+##    return (cantAparece)
+##
+##def recuadrar (palabra):
+##    cant_ast = len(palabra)+4
+##    asteriscos =""
+##    for i in range(0,cant_ast):
+##        asteriscos=asteriscos+"*"
+##
+##    print(asteriscos)
+##    print("*",palabra,"*")
+##    print(asteriscos)
+##
+##palabra = input ("Ingrese una cadena ")
+##letra = input ("Ingrese una letra ")
+##(recuadrar(palabra))
+##print ("La palabra que ingreso",palabra,"contiene",CantAparece(palabra,letra),"letras",letra)
+##
+
+# Ejercicio 17
+
+##def contarCaracter (cadena, caracter):
+##    cont = 0
+##    for letra in cadena:
+##        if (letra == caracter):
+##            cont =cont +1
+##    return (cont)
+##
+##def tieneRepetidas (cadena):
+##    if  contarCaracter (cadena,caracter)> 1: # Recordar declarar la variable que vamos a usar debajo
+##        return True
+##    return False
+##
+##def aparece (cadena,letra):
+##    for letra in cadena:
+##        if  letra == caracter:
+##            return True
+##        return False
+##
+##
+##def dameRepetida (cadena):
+##
+##    for letra in cadena:
+##        if contarCaracter(cadena,letra) >=2:
+##            return letra
+##    return ""
+
+# d)
+##def cuantasVeces (cadena,letra_a_buscar):
+##    cont=0
+##    for letra in cadena:
+##        if letra == letra_a_buscar:
+##            cont = cont +1
+##    return cont
+##
+##def quitarRepeticiones (cadena,letra_a_borrar):
+##    cad_nueva = ""
+##    for letra in cadena:
+##        if letra != letra_a_borrar or cuantasVeces(cad_nueva,letra_a_borrar)==0:
+##            cad_nueva = cad_nueva + letra
+##    return cad_nueva
+
+#print (quitarRepeticiones("papa","a"))
+
+
+
+
+
